@@ -1,0 +1,104 @@
+.form {
+  height: 46rem;
+  background-color: rgb(29, 136, 230);
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.span_primary {
+  margin: 25px 23px;
+  height: 45px;
+  padding: 10px 15px;
+  width: 382px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_principal {
+  position: absolute;
+  height: 45px;
+  padding: 10px 15px;
+  width: 382px;
+}
+
+input[type="text"],
+input[type="image"] {
+  background: #e2e8e9;
+  border-radius: 5px;
+  border: none;
+}
+
+.sinal {
+  position: relative;
+  /* left: 10rem; */
+  left: 165px
+}
+
+.list_container {
+  background: #F5F5F5;
+  margin: 25px auto;
+  width: 382px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.secondary {
+  display: flex;
+  align-items: center;
+  /* background-color: rgb(106, 126, 165); */
+}
+
+.trash {
+  position: relative;
+  left: 9rem;
+  cursor: pointer;
+}
+
+.span_secondary {
+  display: flex;
+  /* flex-direction: row;
+  justify-content: space-between; */
+  align-items: center;
+  /* padding: 10px 15px; */
+  margin-top: 20px;
+  /* width: 362px; */
+  /* height: 40px; */
+  background: #E2E8E9;
+}
+
+.subItens_text {
+  /* width: 15rem; */
+  position: absolute;
+  width: 362px;
+  padding: 10px 15px;
+  height: 40px;
+}
+
+.sinal_subItem {
+  /* padding: 10px 15px; */
+  position: relative;
+  /* left: 10rem; */
+  left: 328px;
+}
+
+.children {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+  padding: 0px 15px 0px 0px;
+  margin-top: 10px;
+  height: 35px;
+}
+
+.parag {
+  margin-top: 21px;
+  padding: 10px 15px;
+  cursor: grab;
+}
+
+.trash_item {
+  margin-top: 21px;
+  cursor: pointer;
+}
